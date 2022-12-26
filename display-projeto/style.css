@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px;
+}
+h1 {
+  text-align: center;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+.default {
+  background-color: #111;
+  font-size: 24px;
+  margin: 20px;
+  padding: 16px 24px 16px 24px;
+  border-radius: 8px;
+}
+h2 {
+  display: inline;
+  color: #fafafa;
+}
+.cinza {
+  color: #b2b2b2;
+}
+.amarelo {
+  color: #febe01;
+}
+.amarelo1 {
+  color: #febe01;
+  font-size: 32px;
+  font-weight: 600;
+}
+.botao {
+  background-color: #febe01;
+  color: #332200;
+  padding: 8px;
+  font-size: 24px;
+  border-radius: 8px;
+}
