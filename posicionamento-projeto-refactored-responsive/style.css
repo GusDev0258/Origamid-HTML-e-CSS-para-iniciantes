@@ -8,7 +8,7 @@ body {
   margin-top: 3.75rem;
   position: relative;
 }
-header{
+header {
   display: grid;
   justify-items: center;
   gap: 3.75rem;
@@ -37,7 +37,7 @@ p {
   font-size: 1.25rem;
   line-height: 1.3;
 }
-.subtitulo{
+.subtitulo {
   background: url("./img/onda.svg");
 }
 .menu {
@@ -56,7 +56,6 @@ p {
   border-radius: 4px;
   color: #000;
   border: 2px solid transparent;
-  
 }
 .content {
   display: grid;
@@ -73,6 +72,12 @@ p {
   gap: 20px;
   justify-items: end;
 }
+
+.intro-cover img {
+  object-fit: cover;
+  height: 100%;
+}
+
 .button-vermais {
   background: #e21;
   color: #fff;
@@ -110,7 +115,7 @@ h1::before {
 .vantagens-item p {
   grid-column: 2;
 }
-.vantagens-item:nth-child(odd){
+.vantagens-item:nth-child(odd) {
   background-color: #f7f7f7;
 }
 .vantagens-item:hover {
@@ -123,3 +128,45 @@ h1::before {
   padding: 40px;
   box-sizing: border-box;
 }
+@media (max-width: 1000px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+  p {
+    max-width: 50ch;
+  }
+  .menu {
+    gap: 1rem;
+  }
+  header {
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  h1::before {
+    display: none;
+  }
+  .subtitulo {
+    word-break: break-all;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .introducao {
+    justify-items: center;
+    text-align: center;
+  }
+  body{
+    margin-top: 1.5rem;
+    gap: 1.5rem;
+  }
+  .rodape{
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+}
+
