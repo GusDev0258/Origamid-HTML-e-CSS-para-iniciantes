@@ -106,8 +106,9 @@ header {
   margin-top: 3.2vh;
 }
 .Gustavo {
-  width: 100%;
-  object-fit: contain;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
   height: 100%;
 }
 #AboutMe {
@@ -143,7 +144,7 @@ header {
 #HardSkills {
   width: 100%;
 }
-.skills{
+.skills {
   margin-top: 4vh;
 }
 .skillrow {
@@ -161,11 +162,11 @@ header {
   margin-top: 3.2vh;
   font-size: 1.5rem;
 }
-#SoftSkills{
+#SoftSkills {
   width: 100%;
   position: relative;
 }
-.comunicacao{
+.comunicacao {
   margin-top: 4vh;
   margin-left: 25%;
   display: grid;
@@ -176,45 +177,60 @@ header {
   width: 42%;
   border-radius: 8px;
 }
-.comunicacao::before{
+.comunicacao::before {
   content: "";
   width: 4px;
   height: 32px;
   position: absolute;
-  background-image: linear-gradient(180deg, #FDE047 0%, #FDD46A 52.08%, #E6C620 100%);
+  background-image: linear-gradient(
+    180deg,
+    #fde047 0%,
+    #fdd46a 52.08%,
+    #e6c620 100%
+  );
   left: 24.9%;
   top: 38.8%;
   border-radius: 8px;
 }
-.inteligencia::before{
+.inteligencia::before {
   content: "";
   width: 4px;
   height: 32px;
   position: absolute;
-  background-image: linear-gradient(180deg, #FDE047 0%, #FDD46A 52.08%, #E6C620 100%);
+  background-image: linear-gradient(
+    180deg,
+    #fde047 0%,
+    #fdd46a 52.08%,
+    #e6c620 100%
+  );
   left: 24.9%;
   top: 61.6%;
   border-radius: 8px;
 }
-.proatividade::before{
+.proatividade::before {
   content: "";
   width: 4px;
   height: 32px;
   position: absolute;
-  background-image: linear-gradient(180deg, #FDE047 0%, #FDD46A 52.08%, #E6C620 100%);
+  background-image: linear-gradient(
+    180deg,
+    #fde047 0%,
+    #fdd46a 52.08%,
+    #e6c620 100%
+  );
   left: 24.9%;
   top: 84.6%;
   border-radius: 8px;
 }
-.texto h3{
+.texto h3 {
   font-size: 2rem;
-  font-family: 'Nunito sans', sans-serif;
+  font-family: "Nunito sans", sans-serif;
   font-weight: 500;
   color: var(--v500);
   padding-left: 2vw;
   margin-top: 2vh;
 }
-.texto p{
+.texto p {
   font-size: 1.2rem;
   padding-left: 2vw;
   margin-bottom: 2vh;
@@ -224,7 +240,7 @@ header {
   height: 20vh;
   margin: 2vh 2vw;
 }
-.inteligencia{
+.inteligencia {
   margin-top: 4vh;
   margin-left: 25%;
   display: grid;
@@ -236,14 +252,14 @@ header {
   width: 42%;
   border-radius: 8px;
 }
-.inteligencia p{
+.inteligencia p {
   color: var(--n900);
 }
 .inteligencia img {
   height: 20vh;
   margin: 2vh 2vw;
 }
-.proatividade{
+.proatividade {
   margin-top: 4vh;
   margin-left: 25%;
   display: grid;
@@ -259,34 +275,34 @@ header {
   height: 20vh;
   margin: 2vh 2vw;
 }
-#Projects{
+#Projects {
   width: 100%;
 }
-#coming-soon{
+#coming-soon {
   display: inline-block;
   margin-left: 25%;
   font-size: 2rem;
   margin-top: 4vh;
   margin-bottom: 7.2vh;
 }
-#Contact{
+#Contact {
   width: 100%;
   background-color: var(--n900);
 }
-#phrase{
+#phrase {
   display: inline-block;
   font-size: 2rem;
   margin: 2vh;
   margin-left: 25%;
 }
-.socialmedia{
+.socialmedia {
   display: flex;
   flex-direction: column;
   margin-left: 25%;
   gap: 1rem;
   margin-top: 1vh;
 }
-.mediaComponent{
+.mediaComponent {
   display: flex;
   align-items: center;
   gap: 0.4rem;
