@@ -95,6 +95,7 @@ header {
   font-size: 1rem;
   border: none;
   margin-left: 25%;
+  max-width: max-content;
 }
 .ponto {
   color: var(--y400);
