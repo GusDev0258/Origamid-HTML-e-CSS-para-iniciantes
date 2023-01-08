@@ -17,6 +17,8 @@
   font-family: "Poppins";
   font-style: normal;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 .btn-primary.arrow{
   display: flex;

@@ -5,16 +5,16 @@
   gap: 40px;
   padding: 60px 0px;
 }
-.bicicletas-imagem{
+.bicicleta-imagem{
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
-.bicicletas-imagem img{
+.bicicleta-imagem img{
   flex: 1;
   min-width: 200px;
 }
-.bicicletas-imagem img:first-child{
+.bicicleta-imagem img:first-child{
   min-width: 100%;
 }
 .bicicleta-conteudo > p{
