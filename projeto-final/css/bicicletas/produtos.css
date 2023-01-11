@@ -27,7 +27,6 @@
   justify-items: start;
   gap: 8px 12px;
   margin-bottom: 40px;
-
 }
 .bicicleta-comprar a{
   grid-row: span 2;
@@ -79,21 +78,21 @@
   border: none;
 }
 @media(max-width: 800px){
-  .bicicleta{
+  .bicicleta.container{
     grid-template-columns: 1fr;
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .bicicleta-imagens{
-    grid-row: 2;
+  .bicicleta-imagem{
+    flex-direction: column;
   }
 }
-@media(max-width: 600px){
+@media(max-width: 400px){
   .bicicleta-informacoes{
     grid-template-columns: 1fr;
   }
   .bicicleta-comprar{
     grid-template-columns: 1fr;
   }
-}
+} 
 
