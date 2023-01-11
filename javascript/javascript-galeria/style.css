@@ -1,0 +1,49 @@
+body,
+a,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,dd,dt,dl {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: inherit;
+}
+
+body{
+  background: #111;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+#galeria{
+  max-width: 600px;
+  margin: 0 auto
+}
+#galeria ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 32px;
+}
+#galeria li{
+  border: 5px solid transparent;
+  transition: 0.2;
+}
+#galeria li:hover{
+  border: 5px solid #bf3;
+}
+.titulo{
+  margin-top: 16px;
+  color: #fff;
+  text-align: center;
+}
